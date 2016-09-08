@@ -1,0 +1,311 @@
+Content-Type: multipart/related; start=<op.mhtml.1312448683298.dcd67752734b0853@172.17.153.81>; boundary=----------ztwjjq907eYSGRcWk28LAc
+Content-Location: http://uva.onlinejudge.org/external/5/575.html
+Subject: =?utf-8?Q?Skew=20Binary?=
+MIME-Version: 1.0
+
+------------ztwjjq907eYSGRcWk28LAc
+Content-Disposition: inline; filename=575.html
+Content-Type: text/html; charset=iso-8859-1; name=575.html
+Content-ID: <op.mhtml.1312448683298.dcd67752734b0853@172.17.153.81>
+Content-Location: http://uva.onlinejudge.org/external/5/575.html
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Skew Binary</TITLE>
+<META NAME="description" CONTENT="Skew Binary">
+<META NAME="keywords" CONTENT="htmlatex">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK REL="STYLESHEET" HREF="htmlatex.css">
+</HEAD>
+<BODY LANG="EN" BGCOLOR=#FFFFFF>
+
+<H1><BR CLEAR=ALL><CENTER><TABLE BGCOLOR=#0060F0><TR><TD><B><FONT SIZE=5 COLOR=#C0FFFF>&nbsp;<A NAME="SECTION0001000000000000000000">
+Skew Binary</A>&nbsp;</FONT></B></TABLE></CENTER>
+</H1>
+
+<P>
+When a number is expressed in decimal, the <I>k</I>-th digit represents a multiple
+of 10<SUP><I>k</I></SUP>. (Digits are
+numbered from right to left, where the least significant digit is number 0.)
+For example,
+<BR><P></P>
+<DIV ALIGN="CENTER">
+<!-- MATH: \begin{displaymath}
+81307_{10} = 8 \times 10^4 + 1 \times 10^3 + 3 \times 10^2 + 0 \times 10^1 +
+7 \times 10 0 = 80000 + 1000 + 300 + 0 + 7
+= 81307.
+\end{displaymath} -->
+
+
+<IMG
+ WIDTH="641" HEIGHT="29"
+ SRC="575img1.gif"
+ ALT="\begin{displaymath}81307_{10} = 8 \times 10^4 + 1 \times 10^3 + 3 \times 10^2 + ...
+...mes 10^1 +
+7 \times 10 0 = 80000 + 1000 + 300 + 0 + 7
+= 81307.
+\end{displaymath}">
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+
+<P>
+When a number is expressed in binary, the <I>k</I>-th digit represents a multiple of
+2<SUP><I>k</I></SUP>. For example,
+<BR><P></P>
+<DIV ALIGN="CENTER">
+<!-- MATH: \begin{displaymath}
+10011_2 = 1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 +
+1 \times 2^0 = 16 + 0 + 0 + 2 + 1 = 19.
+\end{displaymath} -->
+
+
+<IMG
+ WIDTH="553" HEIGHT="29"
+ SRC="575img2.gif"
+ ALT="\begin{displaymath}10011_2 = 1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 +
+1 \times 2^0 = 16 + 0 + 0 + 2 + 1 = 19.
+\end{displaymath}">
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+
+<P>
+In <B>skew binary</B>, the <I>k</I>-th digit represents a multiple of 
+<!-- MATH: $2^{k+1} - 1$ -->
+2<SUP><I>k</I>+1</SUP> - 1.
+The only possible digits are 0 and
+1, except that the least-significant nonzero digit can be a 2. For example,
+<BR><P></P>
+<DIV ALIGN="CENTER">
+<!-- MATH: \begin{displaymath}
+10120_{skew} = 1 \times (2^5 - 1) + 0 \times (2^4-1) + 1 \times (2^3-1) +
+2 \times (2^2-1) + 0 \times (2^1-1)
+= 31 + 0 + 7 + 6 + 0 = 44.
+\end{displaymath} -->
+
+
+<IMG
+ WIDTH="696" HEIGHT="31"
+ SRC="575img3.gif"
+ ALT="\begin{displaymath}10120_{skew} = 1 \times (2^5 - 1) + 0 \times (2^4-1) + 1 \tim...
+...2 \times (2^2-1) + 0 \times (2^1-1)
+= 31 + 0 + 7 + 6 + 0 = 44.
+\end{displaymath}">
+</DIV>
+<BR CLEAR="ALL">
+<P></P>
+
+<P>
+The first 10 numbers in skew binary are 0, 1, 2, 10, 11, 12, 20, 100, 101,
+and 102. (Skew binary is
+useful in some applications because it is possible to add 1 with at most
+one carry. However, this
+has nothing to do with the current problem.)
+
+<P>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001001000000000000000">
+Input</A>&nbsp;</FONT>
+</H2>
+The input file contains one or more lines, each of which contains an integer <I>n</I>. If <I>n</I> = 0 it signals
+the end of the input, and otherwise <I>n</I> is a nonnegative integer in skew binary.
+
+<P>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001002000000000000000">
+Output</A>&nbsp;</FONT>
+</H2>
+For each number,
+output the decimal equivalent. The decimal value of <I>n</I> will be at
+most 
+<!-- MATH: $2^{31} - 1 = 2147483647$ -->
+2<SUP>31</SUP> - 1 = 2147483647.
+
+<P>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001003000000000000000">
+Sample Input</A>&nbsp;</FONT>
+</H2>
+<PRE>
+10120
+200000000000000000000000000000
+10
+1000000000000000000000000000000
+11
+100
+11111000001110000101101102000
+0
+</PRE>
+
+<P>
+
+<H2><FONT COLOR=#0070E8><A NAME="SECTION0001004000000000000000">
+Sample Output</A>&nbsp;</FONT>
+</H2>
+<PRE>
+44
+2147483646
+3
+2147483647
+4
+7
+1041110737
+</PRE>
+
+<P>
+
+<P>
+<BR><HR>
+<ADDRESS>
+<I>Miguel A. Revilla</I>
+<BR><I>1998-03-10</I>
+</ADDRESS>
+</BODY>
+</HTML>
+</HTML>
+
+------------ztwjjq907eYSGRcWk28LAc
+Content-Disposition: inline; filename=htmlatex.css
+Content-Type: text/css; charset=iso-8859-1; name=htmlatex.css
+Content-Location: http://uva.onlinejudge.org/external/5/htmlatex.css
+Content-Transfer-Encoding: 8bit
+
+
+/* Century Schoolbook font is very similar to Computer Modern Math: cmmi */
+.MATH    { font-family: "Century Schoolbook", serif; }
+.MATH I  { font-family: "Century Schoolbook", serif; font-weight: bold }
+.BOLDMATH { font-family: "Century Schoolbook", serif; font-weight: bold }
+
+/* implement both fixed-size and relative sizes */
+SMALL.XTINY		{ font-size : xx-small }
+SMALL.TINY		{ font-size : x-small  }
+SMALL.SCRIPTSIZE	{ font-size : smaller  }
+SMALL.FOOTNOTESIZE	{ font-size : small    }
+SMALL.SMALL		{  }
+BIG.LARGE		{  }
+BIG.XLARGE		{ font-size : large    }
+BIG.XXLARGE		{ font-size : x-large  }
+BIG.HUGE		{ font-size : larger   }
+BIG.XHUGE		{ font-size : xx-large }
+
+/* document-specific styles come next */
+
+------------ztwjjq907eYSGRcWk28LAc
+Content-Disposition: inline; filename=575img1.gif
+Content-Type: image/gif; name=575img1.gif
+Content-Location: http://uva.onlinejudge.org/external/5/575img1.gif
+Content-Transfer-Encoding: Base64
+
+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
+ZjrzmdDUSEAAADs=
+
+------------ztwjjq907eYSGRcWk28LAc
+Content-Disposition: inline; filename=575img2.gif
+Content-Type: image/gif; name=575img2.gif
+Content-Location: http://uva.onlinejudge.org/external/5/575img2.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhKQIdAIAAAAAAAP///yH5BAEAAAEALAAAAAApAh0AQAL+jI+py+0Po5y0
+2ouz3rz7D4biSJbmiQKoBqhr1r6sDLv0jedhjNhB7OMZhD1fiVhUGH82YQuZWPaS
+B+jS6XpCp42g0RptqrTbKqQMDlfHWodUvUhTmcMnCFlWuuf6Lp/LgOX3kFcDR7fW
+Vse2iMik+GhXd0emdGVZSfHWiHcZljmx+ei41pcIKSFKduVZBBqh+joZhYlKiQqk
+6pa718UbuCsLGCeMsVqKJaqzzNzs/AwdLT1NXW1t9nM9qk1KrdzsxC0+Hurlal5q
+mV5owd5NnLoKSoT27b4oL5gOvxufb2UvIKx/AM8IPNFpX6R8CukRFDPnoRSABNXt
+YGWLnMb+jRw7evwIMqTIkSRLmjyJMqXKlSxbunwJ89O1X9N43Fv2DdysmDzbSVqX
+JeipTzlZ/DQmdGFRfjcthntXbmcFm+hqNA2UdMiGjFOTPt16dNZVKmPJLoVTdugH
+W3a2ODzHx+2XWBX5YZVK7Gy2uwrFKgt7xtcfv8GmGuwH1ZWmw4ITJ/L3j+/jQpve
+ApOcuChgbIix1rW4r2BERlLl2iXK8LTTN19TdRZdj7PrxlCp2tV7kG9sraEY62bd
+BHJq0DvzxOo7DDQaQsEvd84bWTVVvRe5hqSOA/sN7TS4r/Se3JgH8D3Lmz+PPr36
+9ezbu38PP778+fTr27+PP7/+mGn+X2StiVc0m0lD034GpjSGOP0h9J832rR2oEoY
+eeGWcwhxgAtvVnnH1YKRGCXaVhiGRZ6GG4Z2B3QggmcdZB2UaIpaxDlCk2WHmOAh
+jV8Q8hp2gtg2iGRp6WNTL89doM9eRtKG1DoBGmJWZT0GeRtrU1qI2XhzIWfjhw1N
+BCNzTIY4VmVVlcYKcjxiFmI3Sc52ZFxpPklllnIqF6Z0LZp4o3FjWkmbn2JedEib
+DnVpGjb1fHajioMuxiaY7pRl5mD4PNobpo7GuSancGkaTHQzvklLpHXeGUc8S9p5
+znCNTkfcoWcmikiOjdbiaWCm4sokpKctWimSvnl2XDvDbqplGgkJ0alkrFLuGiOr
+peYKpZ3L0vEmrWoa9WctA546Wp8TfotloXPiJY9hoH7p7VW5OdtunqNCVG649YYG
+KLHfvqslWkH9dS6SWaDE73bHGsyNvA/ac3C0yU4rooAKR0hxxRaDVAAAOw==
+
+------------ztwjjq907eYSGRcWk28LAc
+Content-Disposition: inline; filename=575img3.gif
+Content-Type: image/gif; name=575img3.gif
+Content-Location: http://uva.onlinejudge.org/external/5/575img3.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhuAIfAIAAAAAAAP///yH5BAEAAAEALAAAAAC4Ah8AQAL+jI+py+0Po5y0
+2ouz3rz7D4biSJbmiabqyj7A8bayEc8sUNsrrrd5DwwKJzwYokj7IXk55DDhTCqU
+tWUMh7VEaYyfEVb1Nsdg8BZy9nIb2/aRLA1gzy61Wt4Nl6HvvnRO5+DWRbg3uBcn
+9wJ4cdhRlJW4YOfHN3l0OXmHOVXJsaikCMWoCGoWWTpXKpoUFsqEF7tZAQjHiVg7
+G1E7mjnFZPslmbvB6yk8qoqI7ESsYbyM/EbKeludiooBfW09Xe147ZyxHahFut3d
+yi3dW6i5vpYMP67cCqz7lK+/z9/v/w8woMCBBAtG61WOiI2EVzzgI5Fw1aOFD+dR
+qDgiIkb+NAY7DrHiiQ6kYO10lEtjB1+uevBGrgR2TJLMg79exmT1MttJMXcY5izp
+J2eUQG166hIKNJFQUwdR5qljM2bERiCnITV0ddjVqkubbWSDi6bHfVM/lA1x1uFX
+tT7WPnJLj+INuGPr2r2LN6/evXz7+v0LOLDgwYQLGz6MGAhdj9kAwww8kvDixJRr
+wrEy9IrmmU9Y0sKq9GJji09Ju8Op2TNUnrRGS7hchTOb0WlRawlKclfj2rY/g2an
+OzOIyKnMyZ6NTtDm18uHp3yn9aa93BCzJv2dTt2n551+HSMOXHsx7pZKe+e2ybXx
+8+WRtxvqfjv79su8zkzPG7r0pfH+xcarT4lyp3kj0nwo/dRdM5zZF11JTH2zhETF
+RWYUgvPhllSE8l34XyXChcNah9qQl51Y4K2j4Xj6lfjNe7ml+EyI3bHH4IcevsXh
+dOJ4qAdYNAZo3owOAsmjJhau6N8Oa5jyIJMPBjHZiAOaJZcvaFUp5HAzEAXRllE6
+NE6YYlZGZplmnolmmmquyWabbr4JZ5xyzklnnXbeiWeeeu7JZ59+/glooIIOSmhr
++TH2JUDNOXZcXuoVCulgj/a1yGGHDnQio5EKRkUallklEF2YkaiQdKtRBeoXcFEx
+ZmupXrcLrGhMOturSQpi6qnr2UOfb42OCA5zvK0kWm2q4Zj+I4MgDgnhP4dWJUqm
+ullZIrTT4hLKrtUKqC1I0s5KbXjWgottHGsFK26PzBUpIhFiOCfeSfp5aiW6qBFZ
+rllFkacseq5Q1xmJNo4rZbIr9ouwujEi2S5NCbOrosHzBvPwr+vKKrDCNja7Ya5x
+JSljSxyFO52PISX62B/8Uozfskbqe6SpqomEMqnt9surzDUzHEuQybDq88ewqpTS
+xrJqK1vGP+do8cX7WVdTriHTa3KW+faKs47JgfettVlzfNylbOVRFNMFD30wT0Y3
+7S7PsxC1m80LSxz0KUMnel9PaS99N7xH33Z1uF+/nZ55VAO4HS/EAuV1p6pA66Qy
+FFaC2jOyjGerteU3GYV4fT/T6vTm3F7ezY5Ci24kSwh/LnZTek/cuTSmn32raPG+
+DbvVMhuOr1J4L5ja6KdrV49wkHz0+0VTely3Cq+jlbzyJHfsQ9VmC3+DCMPWan2v
+LJLWMmVOSsgITNHPnX1bW8rQujbsn++Cl+xvSn/99t+Pf2UFAAA7
+
+------------ztwjjq907eYSGRcWk28LAc--

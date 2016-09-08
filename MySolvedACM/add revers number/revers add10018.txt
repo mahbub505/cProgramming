@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+int main()
+{
+	  char a[5000],b[5000],M[5000],ch;
+      long i,j,A,n,l=0,a1,o=0,c1,k,ans=0,c=0,e=0,f=0,P[5000],z=0;
+      scanf("%ld",&n);
+	  scanf("%c",&ch);
+
+  while(z<n)
+	  {     A=0;o=0;e=0;c=0;ans=0,a1=0;
+			gets(a);
+     		a1=strlen(a);
+			 a[a1]='\0';
+        for(o=0;o<1005;o++)
+        {        ans=0;
+		         for(i=a1-1,j=0;j<a1;i--,j++)
+                     b[j]=a[i];
+
+                   b[a1]='\0';
+                   A=0;j=0;
+                   A=strcmp(a,b);
+
+		         if(A==0)
+                   {printf("%ld %s\n",o,a);
+                   break;}
+               else
+                 {
+                     c=0;e=0;
+			        for(i=0,j=a1-1,k=a1-1;i<a1;i++,j--,k--)
+				     {   if(k<0)b[k]='0';
+				         if(j<0)a[j]='0';
+    					   ans = (a[j]-'0')+(b[k]-'0')+c;c=0;
+                         if(ans<10)
+                          P[i]=ans;
+					    else
+						{P[i]=ans%10;c=1;e=i;
+						}
+				     }
+				     if(c==1)
+				    {P[++e]=1;a1++;}
+                 }
+                 for(f=a1-1,i=0;f>=0;f--,i++)
+                   M[i]=P[f]+'0';
+				  strcpy(a,M);
+				  a[a1]='\0';
+
+         }
+    z++;
+	}return 0;
+}

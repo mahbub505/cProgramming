@@ -1,0 +1,54 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+int main()
+{
+
+	 char W[1000],A[1000],B[1000],ch='%';
+	 int q,i,p,a,b,c,p2,j,q2,r=0,m,x;
+	 int sum=0,sum2=0;float ans=0,m1,r1,z,z1;
+	 while(gets(W))
+	  {
+	      gets(B);
+	       q=strlen(W);
+		 q2=strlen(B);
+	  sum=0;sum2=0;r=0;m=0;r1=0;m1=0;
+   	for(i=0;i<q;i++)
+	  {p=0;
+			if(W[i]>96&&W[i]<123||(W[i]>64&&W[i]<91)&&i<=q-1)
+		  { if(W[i]>96)
+			 {p=W[i]-96;
+			sum=sum+p;
+			}
+			else
+		  {p=W[i]-64;
+			sum=sum+p;}}}
+			for(i=0;i<q2;i++)
+			{if(B[i]>96&&B[i]<123||(B[i]>64&&B[i]<91)&&i<=q2-1)
+		  {if(B[i]>96)
+			 {p2=B[i]-96;
+			sum2=sum2+p2;
+			}
+			else
+		  {p2=B[i]-64;
+			sum2=sum2+p2;}
+		  }
+	  }
+       while(1){
+        for(i=0;i<=q;i++)
+		       {r=r+sum%10;r1=r;
+			    sum=sum/10;}if(r1<10)break;
+               sum=r;r=0;
+               }
+             while(1)
+			{for(i=0;i<=q2;i++)
+		   {m=m+sum2%10;m1=m;
+		    sum2=sum2/10;}if(m1<10)break;
+			sum2=m;m=0;
+			}
+			z=(m1<r1)?m1:r1;
+			z1=(m1>r1)?m1:r1;
+			z1=((z/z1)*100);
+	  printf("%.2f %c\n",z1,ch);
+	 	}return 0;
+}

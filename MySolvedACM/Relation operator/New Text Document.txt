@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	unsigned long int a,b;
+	int c,t;
+	scanf("%d",&c);
+	for(t=1;t<=c;t++)
+	{
+		 scanf("%ld%ld",&a,&b);	  
+	 if(a>b)
+		 printf(">\n");
+     else if(a<b)
+		printf("<\n");
+	 else if(a=b)
+		 printf("=\n");
+	}    
+	  return 0;
+ }

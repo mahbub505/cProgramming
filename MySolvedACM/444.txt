@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char T[500],M[500],S[500],P[500];
+	 int i,j,k,t[500],a,d=0,z=0,c,f[500];
+	 while(gets(T))
+	 {d=0;z=0;
+	     a = strlen(T);
+	 if(T[0]>64)
+	 {  for(i=0;i<a;i++)
+		t[i]=T[i];
+	   for(i=0,j=0;j<a;j++)
+		  {	c=t[j]/10;
+			if(c<10)
+			 {M[i]=c;
+				  i++;
+				  M[i++]=t[j]%10;
+              z=z+2;}
+			if(c>9)
+			{ M[i]=1;
+			  M[++i]=c%10;
+			  M[++i]=t[j]%10;i++;z=z+3;
+            }
+		  }
+		for(i=z-1;i>=0;i--)
+		   printf("%d",M[i]);
+		printf("\n");
+	 }
+	 else
+	 { for(i=a-1,j=0;i>=0;i--,j++)
+			 S[j]=T[i];
+		 for(i=0,j=-1;j<a;i++)
+			 {
+				if(S[j+1]=='1')
+			  	 P[i]=(S[++j]-'0')*100+((S[++j]-'0')*10)+((S[++j]-'0'));
+				else
+			     P[i]=((S[++j]-'0'))*10+(S[++j]-'0');
+              }
+			   for(j=0;j<i-1;j++)
+			     printf("%c",P[j]);
+			  printf("\n");
+	}
+	}return 0;
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+   double n,m,sum,i,j;
+   while(scanf("%lf%lf",&n,&m)== 2)
+   {sum=n;j=n;
+    for(i=0;;i++)
+    {
+    if(sum>=m)
+    {printf("%.0lf\n",j);break;}
+       j++;
+       sum=sum+j;
+    }
+
+   }return 0;
+
+}

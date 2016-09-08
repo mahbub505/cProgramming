@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct Node{
+
+int value;
+struct Node *next,*pre;
+
+}node;
+
+void main(){
+
+node *start,*temp,*end;
+start = NULL;
+end= NULL;
+
+int n,i=0,o=0;
+while(1){
+scanf("%d",&n);i++;
+
+if(n==0)
+break;
+
+    temp = (node *)malloc(sizeof(node));
+    temp->value=n;
+    temp->next=NULL;
+    temp->pre=NULL;
+
+if(i==1)
+    {
+    end=temp;
+    start=temp;
+    }
+else
+    {
+    end->next=temp;
+    temp->pre=end;
+    end=temp;
+    }
+
+
+}
+    do{
+     printf("%d\n",start->value);
+    start=start->next;
+   
+        }while(start->next!=NULL);printf("%d\n",start->value);
+}
+
+
+
+
+

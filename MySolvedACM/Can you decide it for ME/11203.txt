@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	 char ch[1000],l;
+	 int n,i=0,a,c=0,p=0,m=0,q=0,t=0,sum=0,j,s=0,w=0;
+	 scanf("%d",&n);
+	 scanf("%c",&l);
+	 while(i<n)
+	 {   c=0;p=0;m=0;q=0;t=0;sum=0;s=0;w=0;
+		  gets(ch);
+		  a=strlen(ch);
+		  ch[a]='\0';
+		  for(j=0;j<a;j++)
+        {
+			  if(ch[j]=='M'||ch[j]=='E'||ch[j]=='?')
+				{
+				  if(ch[j]=='M')
+					{c=1;m=1;t++;}
+					if(ch[j]=='E')
+					{w=1;t++;}
+				  if(ch[j]=='?'&&c!=1)
+					p++;
+					if(ch[j]=='?'&&m==1&&w!=1)
+					q++;
+				  if(ch[j]=='?'&&w==1)
+					s++;
+				}
+				else
+				{sum=1;break;}
+		  }
+        if(s==(p+q)&&s!=0&&s>p&&s>q&&sum!=1&&t<=2)
+		  printf("theorem\n");
+        else
+          printf("no-theorem\n");
+		  i++;
+	 }return 0;
+}

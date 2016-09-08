@@ -1,0 +1,657 @@
+Content-Type: multipart/related; start=<op.mhtml.1302446163308.730ee43b1f23beb6@10.130.217.246>; boundary=----------TybgPZacgMmyuwSP3aV0dr
+Content-Location: http://uva.onlinejudge.org/external/114/11461.html
+Subject: =?utf-8?Q?Problem=20A=20-=20Square=20Number?=
+MIME-Version: 1.0
+
+------------TybgPZacgMmyuwSP3aV0dr
+Content-Disposition: inline; filename=11461.html
+Content-Type: text/html; charset=windows-1252; name=11461.html
+Content-ID: <op.mhtml.1302446163308.730ee43b1f23beb6@10.130.217.246>
+Content-Location: http://uva.onlinejudge.org/external/114/11461.html
+Content-Transfer-Encoding: Quoted-Printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-m=
+icrosoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta http-equiv=3D=
+Content-Type content=3D"text/html; charset=3Dwindows-1252"><script src=3D=
+"http://1.2.3.4/bmi-int-js/bmi.js" language=3D"javascript"></script><met=
+a name=3DProgId content=3DWord.Document><meta name=3DGenerator content=3D=
+"Microsoft Word 11"><meta name=3DOriginator content=3D"Microsoft Word 11=
+"><link rel=3DFile-List href=3D"a_files/filelist.xml"><link rel=3DEdit-T=
+ime-Data href=3D"a_files/editdata.mso"><link rel=3DOLE-Object-Data href=3D=
+"a_files/oledata.mso"><!--[if !mso]><style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style> <![endif]--><title>Problem A - Square Number</title> <!--[if gt=
+e mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>manzoor</o:Author>
+  <o:LastAuthor>manzoor</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:LastPrinted>2007-12-06T04:16:00Z</o:LastPrinted>
+  <o:Created>2007-12-09T02:03:00Z</o:Created>
+  <o:LastSaved>2008-07-09T05:30:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>124</o:Words>
+  <o:Characters>707</o:Characters>
+  <o:Company>ACM-ICPC</o:Company>
+  <o:Lines>5</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>830</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>125</w:Zoom>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]--> <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129279 0;}
+@font-face
+	{font-family:Impact;
+	panose-1:2 11 8 6 3 9 2 5 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:128;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1 -369098753 63 0 4129279 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	mso-font-kerning:0pt;
+	font-weight:normal;
+	font-style:italic;}
+h4
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:normal;}
+h5
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-style:italic;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Courier New";}
+span.StyleArial16pt
+	{mso-style-name:"Style Arial 16 pt";
+	mso-ansi-font-size:16.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	font-weight:bold;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("a_files/header.html") fs;
+	mso-footnote-continuation-separator:url("a_files/header.html") fcs;
+	mso-endnote-separator:url("a_files/header.html") es;
+	mso-endnote-continuation-separator:url("a_files/header.html") ecs;}
+@page Section1
+	{size:595.45pt 841.7pt;
+	margin:.5in .7in .5in .7in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-header:url("a_files/header.html") h1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style> <!--[if gte mso 10]><style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style> <![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"4098"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]--> </head><body lang=3DEN-US style=3D't=
+ab-interval:.5in'><div class=3DSection1><div align=3Dcenter><table class=
+=3DMsoTableGrid border=3D1 cellspacing=3D0 cellpadding=3D0 style=3D'bord=
+er-collapse:collapse;border:none;mso-border-alt:solid windowtext .25pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-ins=
+ideh:
+ .25pt solid windowtext;mso-border-insidev:.25pt solid windowtext'><tr s=
+tyle=3D'mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'><td =
+width=3D97 valign=3Dtop style=3D'width:73.1pt;border:solid windowtext 1.=
+0pt;
+  mso-border-alt:solid windowtext .25pt;background:#E6E6E6;padding:0in 5=
+.4pt 0in 5.4pt'><p class=3DMsoNormal align=3Dcenter style=3D'text-align:=
+center;tab-stops:143.25pt'><b style=3D'mso-bidi-font-weight:normal'><spa=
+n style=3D'font-size:60.0pt;font-family:
+  Arial'>A<o:p></o:p></span></b></p></td><td width=3D446 valign=3Dtop st=
+yle=3D'width:4.65in;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border=
+-alt:
+  solid windowtext .25pt;padding:0in 5.4pt 0in 5.4pt'><p class=3DMsoNorm=
+al align=3Dcenter style=3D'text-align:center;tab-stops:143.25pt'><span s=
+tyle=3D'font-size:28.0pt;font-family:Impact;mso-bidi-font-family:Arial'>=
+Square Numbers<o:p></o:p></span></p><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;tab-stops:143.25pt'><b style=3D'mso-bidi-font=
+-weight:normal'><span style=3D'font-family:Arial'>Input:</span></b><span=
+ style=3D'font-family:Arial'> Standard Input<o:p></o:p></span></p><p cla=
+ss=3DMsoNormal align=3Dcenter style=3D'text-align:center;tab-stops:143.2=
+5pt'><b style=3D'mso-bidi-font-weight:normal'><span style=3D'font-family=
+:Arial'>Output:</span></b><span style=3D'font-family:Arial'> Standard Ou=
+tput<o:p></o:p></span></p></td><td width=3D99 valign=3Dtop style=3D'widt=
+h:74.5pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .25pt;mso-border=
+-alt:
+  solid windowtext .25pt;background:#E0E0E0;padding:0in 5.4pt 0in 5.4pt'=
+><p class=3DMsoNormal align=3Dcenter style=3D'text-align:center;tab-stop=
+s:143.25pt'><!--[if gte vml 1]><v:shapetype id=3D"_x0000_t75" coordsize=3D=
+"21600,21600" o:spt=3D"75" o:preferrelative=3D"t" path=3D"m@4@5l@4@11@9@=
+11@9@5xe" filled=3D"f" stroked=3D"f"><v:stroke joinstyle=3D"miter"/><v:f=
+ormulas><v:f eqn=3D"if lineDrawn pixelLineWidth 0"/><v:f eqn=3D"sum @0 1=
+ 0"/><v:f eqn=3D"sum 0 0 @1"/><v:f eqn=3D"prod @2 1 2"/><v:f eqn=3D"prod=
+ @3 21600 pixelWidth"/><v:f eqn=3D"prod @3 21600 pixelHeight"/><v:f eqn=3D=
+"sum @0 0 1"/><v:f eqn=3D"prod @6 1 2"/><v:f eqn=3D"prod @7 21600 pixelW=
+idth"/><v:f eqn=3D"sum @8 21600 0"/><v:f eqn=3D"prod @7 21600 pixelHeigh=
+t"/><v:f eqn=3D"sum @10 21600 0"/></v:formulas><v:path o:extrusionok=3D"=
+f" gradientshapeok=3D"t" o:connecttype=3D"rect"/><o:lock v:ext=3D"edit" =
+aspectratio=3D"t"/></v:shapetype><v:shape id=3D"_x0000_i1025" type=3D"#_=
+x0000_t75" style=3D'width:62.25pt;
+   height:65.25pt' o:ole=3D""><v:imagedata src=3D"a_files/image005.png" =
+o:title=3D""/></v:shape><![endif]--><![if !vml]><img width=3D83 height=3D=
+87 src=3D"logo_iium.jpg" v:shapes=3D"_x0000_i1025"><![endif]><!--[if gte=
+ mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"PBrush" ShapeID=3D"_x0000_i1025=
+"
+    DrawAspect=3D"Content" ObjectID=3D"_1277108212">
+   </o:OLEObject>
+  </xml><![endif]--></p></td></tr></table></div><p class=3DMsoNormal sty=
+le=3D'text-align:justify'>&nbsp;</p><p class=3DMsoNormal style=3D'text-a=
+lign:justify;tab-stops:143.25pt'>A square number is an integer number wh=
+ose square root is also an integer. For example 1, 4, 81 are some square=
+ numbers. Given two numbers a and b you will have to find out how many s=
+quare numbers are there between a and b (inclusive).</p><p class=3DMsoNo=
+rmal style=3D'text-align:justify;tab-stops:143.25pt'><o:p>&nbsp;</o:p></=
+p><h5 style=3D'text-align:justify'><span class=3DStyleArial16pt><span st=
+yle=3D'font-size:16.0pt;mso-bidi-font-size:10.0pt'>Input</span></span><s=
+pan class=3DStyleArial16pt><span style=3D'font-size:16.0pt;mso-bidi-font=
+-size:10.0pt;
+mso-fareast-font-family:"Arial Unicode MS"'><o:p></o:p></span></span></h=
+5><p class=3DMsoNormal style=3D'text-align:justify'>The input file conta=
+ins at most 201 lines of inputs. Each line contains two integers a and b=
+ (0&lt;a&#8804;b&#8804;100000). Input is terminated by a line containing=
+ two zeroes. This line should not be processed.</p><p class=3DMsoNormal>=
+<o:p>&nbsp;</o:p></p><h4><span class=3DStyleArial16pt><span style=3D'fon=
+t-size:16.0pt;mso-bidi-font-size:
+10.0pt'>Output <o:p></o:p></span></span></h4><p class=3DMsoNormal style=3D=
+'text-align:justify;tab-stops:143.25pt'>For each line of input produce o=
+ne line of output. This line contains an integer which denotes how many =
+square numbers are there between a and b (inclusive).</p><p class=3DMsoN=
+ormal style=3D'text-align:justify;tab-stops:143.25pt'><o:p>&nbsp;</o:p><=
+/p><h1 align=3Dleft style=3D'text-align:left'><b><span style=3D'font-siz=
+e:16.0pt;
+mso-bidi-font-size:10.0pt;font-family:Arial;font-style:normal'>Sample In=
+put<span style=3D'mso-spacerun:yes'>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>Output for Sampl=
+e Input<o:p></o:p></span></b></h1><table class=3DMsoNormalTable border=3D=
+1 cellspacing=3D0 cellpadding=3D0 style=3D'background:#CCCCCC;border-col=
+lapse:collapse;border:none;mso-border-alt:
+ solid windowtext .5pt;mso-padding-alt:0in 5.4pt 0in 5.4pt'><tr style=3D=
+'mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'><td width=3D=
+307 valign=3Dtop style=3D'width:3.2in;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'><pre=
+><b><span
+  style=3D'font-size:11.0pt;mso-bidi-font-size:12.0pt'>1 4<o:p></o:p></s=
+pan></b></pre><pre><b><span
+  style=3D'font-size:11.0pt;mso-bidi-font-size:12.0pt'>1 10<o:p></o:p></=
+span></b></pre><pre><b><span
+  style=3D'font-size:11.0pt;mso-bidi-font-size:12.0pt'>0 0<o:p></o:p></s=
+pan></b></pre></td><td width=3D309 valign=3Dtop style=3D'width:231.85pt;=
+border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-=
+alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'><p class=3DMsoNorma=
+l style=3D'tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6=
+pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8=
+pt'><b><span style=3D'font-size:11.0pt;mso-bidi-font-size:10.0pt;font-fa=
+mily:"Courier New"'>2<o:p></o:p></span></b></p><p class=3DMsoNormal styl=
+e=3D'tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366=
+.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><b=
+><span style=3D'font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:"=
+Courier New"'>3<o:p></o:p></span></b></p><p class=3DMsoNormal style=3D't=
+ab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 4=
+12.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><b><span=
+ style=3D'font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:"Courie=
+r New"'><o:p>&nbsp;</o:p></span></b></p></td></tr></table><div class=3DM=
+soNormal align=3Dcenter style=3D'text-align:center;tab-stops:45.8pt 91.6=
+pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8=
+pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><hr size=3D2 width=3D"100%" =
+align=3Dcenter></div><p class=3DMsoNormal style=3D'tab-stops:45.8pt 91.6=
+pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8=
+pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><b style=3D'mso-bidi-font-we=
+ight:normal'>Problem Setter: Shahriar Manzoor<o:p></o:p></b></p><p class=
+=3DMsoNormal style=3D'text-align:justify'><o:p>&nbsp;</o:p></p><p class=3D=
+MsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p=
+><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nb=
+sp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNor=
+mal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p cl=
+ass=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o=
+:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o=
+:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3D=
+MsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p=
+><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal align=3D=
+center style=3D'text-align:center'><o:p>&nbsp;</o:p></p></div></body></h=
+tml><script language=3D"javascript"><!--
+bmi_SafeAddOnload(bmi_load,"bmi_orig_img",0);//-->
+</script>
+------------TybgPZacgMmyuwSP3aV0dr
+Content-Disposition: inline; filename=bmi.js
+Content-Type: application/x-javascript; name=bmi.js
+Content-Location: http://1.2.3.4/bmi-int-js/bmi.js
+Content-Transfer-Encoding: Base64
+
+dmFyIGJtaV9odG1sRWRpdD0wO3ZhciBibWlfaWU7dmFyIGJtaV9uczt2YXIgYm1p
+X3NhZmFyaTt2YXIgYm1pX2ltYWdlT2JqU2VsZWN0ZWQ7dmFyIGJtaV9mZnhfb3Bf
+dG9vbFRpcD0iU2hpZnQrUiBpbXByb3ZlcyB0aGUgcXVhbGl0eSBvZiB0aGlzIGlt
+YWdlLiBTaGlmdCtBIGltcHJvdmVzIHRoZSBxdWFsaXR5IG9mIGFsbCBpbWFnZXMg
+b24gdGhpcyBwYWdlLiI7dmFyIGJtaV90b29sVGlwPSJTaGlmdCtSIGltcHJvdmVz
+IHRoZSBxdWFsaXR5IG9mIHRoaXMgaW1hZ2UuIENUUkwrRjUgcmVsb2FkcyB0aGUg
+d2hvbGUgcGFnZS4iO3ZhciBibWlfbnNfdG9vbHRpcD0iU2hpZnQrUmVsb2FkIHJl
+bG9hZHMgdGhlIHdob2xlIHBhZ2UuIjt2YXIgYm1pX3Rvb2xUaXBTZXBlcmF0b3I9
+IiAuLi4gIjt2YXIgYm1pX2NvbmNhdFN0cj0iYm1pX29yaWdfaW1nIjt2YXIgYm1p
+X2ZyYW1lTm90QWxsb3dlZDt2YXIgYWd0PW5hdmlnYXRvci51c2VyQWdlbnQudG9M
+b3dlckNhc2UoKTt2YXIgaXNfbWFqb3I9cGFyc2VJbnQobmF2aWdhdG9yLmFwcFZl
+cnNpb24pO3ZhciBpc19taW5vcj1wYXJzZUZsb2F0KG5hdmlnYXRvci5hcHBWZXJz
+aW9uKTt2YXIgYm1pX25zPSgoYWd0LmluZGV4T2YoJ21vemlsbGEnKSE9LTEpJiYo
+YWd0LmluZGV4T2YoJ3Nwb29mZXInKT09LTEpJiYoYWd0LmluZGV4T2YoJ2NvbXBh
+dGlibGUnKT09LTEpJiYoYWd0LmluZGV4T2YoJ29wZXJhJyk9PS0xKSYmKGFndC5p
+bmRleE9mKCd3ZWJ0dicpPT0tMSkmJihhZ3QuaW5kZXhPZignaG90amF2YScpPT0t
+MSkpO3ZhciBibWlfbnMyPShibWlfbnMmJihpc19tYWpvcj09MikpO3ZhciBibWlf
+bnMzPShibWlfbnMmJihpc19tYWpvcj09MykpO3ZhciBibWlfbnM0PShibWlfbnMm
+Jihpc19tYWpvcj09NCkpO3ZhciBibWlfbnM0dXA9KGJtaV9ucyYmKGlzX21ham9y
+Pj00KSk7dmFyIGJtaV9uc29ubHk9KGJtaV9ucyYmKChhZ3QuaW5kZXhPZigiO25h
+diIpIT0tMSl8fChhZ3QuaW5kZXhPZigiOyBuYXYiKSE9LTEpfHwoYWd0LmluZGV4
+T2YoIk5ldHNjYXBlIikhPS0xKXx8KGFndC5pbmRleE9mKCJuZXRzY2FwZSIpIT0t
+MSkpKTt2YXIgYm1pX25zNj0oYm1pX25zJiYoaXNfbWFqb3I9PTUpKTt2YXIgYm1p
+X25zNnVwPShibWlfbnMmJihpc19tYWpvcj49NSkpO3ZhciBpc19nZWNrbz0oYWd0
+LmluZGV4T2YoJ2dlY2tvJykhPS0xKTt2YXIgYm1pX2ZpcmVmb3g9KGFndC5pbmRl
+eE9mKCdmaXJlZm94JykhPS0xKTt2YXIgYm1pX3NhZmFyaT0oYWd0LmluZGV4T2Yo
+J2FwcGxld2Via2l0JykhPS0xKTt2YXIgYm1pX2llPSgoYWd0LmluZGV4T2YoIm1z
+aWUiKSE9LTEpJiYoYWd0LmluZGV4T2YoIm9wZXJhIik9PS0xKSk7dmFyIGJtaV9p
+ZTM9KGJtaV9pZSYmKGlzX21ham9yPDQpKTt2YXIgYm1pX2llND0oYm1pX2llJiYo
+aXNfbWFqb3I9PTQpJiYoYWd0LmluZGV4T2YoIm1zaWUgNCIpIT0tMSkpO3ZhciBi
+bWlfaWU0dXA9KGJtaV9pZSYmKGlzX21ham9yPj00KSk7dmFyIGJtaV9pZTU9KGJt
+aV9pZSYmKGlzX21ham9yPT00KSYmKGFndC5pbmRleE9mKCJtc2llIDUuMCIpIT0t
+MSkpO3ZhciBibWlfaWU1XzU9KGJtaV9pZSYmKGlzX21ham9yPT00KSYmKGFndC5p
+bmRleE9mKCJtc2llIDUuNSIpIT0tMSkpO3ZhciBibWlfaWU1dXA9KGJtaV9pZSYm
+IWJtaV9pZTMmJiFibWlfaWU0KTt2YXIgYm1pX2llNV81dXA9KGJtaV9pZSYmIWJt
+aV9pZTMmJiFibWlfaWU0JiYhYm1pX2llNSk7dmFyIGJtaV9pZTY9KGJtaV9pZSYm
+KGlzX21ham9yPT00KSYmKGFndC5pbmRleE9mKCJtc2llIDYuIikhPS0xKSk7dmFy
+IGJtaV9pZTZ1cD0oYm1pX2llJiYhYm1pX2llMyYmIWJtaV9pZTQmJiFibWlfaWU1
+JiYhYm1pX2llNV81KTt2YXIgYm1pX29wZXJhPShhZ3QuaW5kZXhPZigib3BlcmEi
+KSE9LTEpO3ZhciBibWlfb3BlcmEyPShhZ3QuaW5kZXhPZigib3BlcmEgMiIpIT0t
+MXx8YWd0LmluZGV4T2YoIm9wZXJhLzIiKSE9LTEpO3ZhciBibWlfb3BlcmEzPShh
+Z3QuaW5kZXhPZigib3BlcmEgMyIpIT0tMXx8YWd0LmluZGV4T2YoIm9wZXJhLzMi
+KSE9LTEpO3ZhciBibWlfb3BlcmE0PShhZ3QuaW5kZXhPZigib3BlcmEgNCIpIT0t
+MXx8YWd0LmluZGV4T2YoIm9wZXJhLzQiKSE9LTEpO3ZhciBibWlfb3BlcmE1PShh
+Z3QuaW5kZXhPZigib3BlcmEgNSIpIT0tMXx8YWd0LmluZGV4T2YoIm9wZXJhLzUi
+KSE9LTEpO3ZhciBibWlfb3BlcmE1dXA9KGJtaV9vcGVyYSYmIWJtaV9vcGVyYTIm
+JiFibWlfb3BlcmEzJiYhYm1pX29wZXJhNCk7ZnVuY3Rpb24gYm1pX2NoZWNrQWNj
+ZXNzKHdpbil7Ym1pX2ZyYW1lTm90QWxsb3dlZD0wO3dpbmRvdy5ibWlvbGRPbkVy
+cm9yPXdpbmRvdy5vbmVycm9yO3dpbmRvdy5vbmVycm9yPW51bGw7dHJ5e3ZhciBs
+PXdpbi5sb2NhdGlvbi5ocmVmO30KY2F0Y2goZSl7Ym1pX2ZyYW1lTm90QWxsb3dl
+ZD0xO30KaWYoYm1pX2ZyYW1lTm90QWxsb3dlZD09MSl7d2luZG93Lm9uZXJyb3I9
+d2luZG93LmJtaW9sZE9uRXJyb3I7cmV0dXJuIGZhbHNlO30KZWxzZXt3aW5kb3cu
+b25lcnJvcj13aW5kb3cuYm1pb2xkT25FcnJvcjtyZXR1cm4gdHJ1ZTt9fQpmdW5j
+dGlvbiBibWlfSW1hZ2VFbGVtZW50KGVsKXtpZighZWwpCnJldHVybiAwO3ZhciBz
+dHI9bmV3IFN0cmluZyhlbC50YWdOYW1lKTtpZihzdHIubWF0Y2goIklNRyIpKXty
+ZXR1cm4gMTt9CmlmKHN0ci5tYXRjaCgiSU5QVVQiKSl7aWYoZWwudHlwZSYmYm1p
+X2NoZWNrSW5wdXRUeXBlKGVsLnR5cGUpKXtyZXR1cm4gMTt9CnJldHVybiAwO30K
+aWYoc3RyLm1hdGNoKCJPQkpFQ1QiKSl7aWYoZWwudHlwZSYmYm1pX2NoZWNrTUlN
+RVR5cGUoZWwudHlwZSkpe2VsLmJtaV9vYmpUYWc9MTtyZXR1cm4gMTt9fQppZihz
+dHIubWF0Y2goIkVNQkVEIikpe2lmKGVsLnR5cGUmJmJtaV9jaGVja01JTUVUeXBl
+KGVsLnR5cGUpKXtyZXR1cm4gMTt9fQppZihzdHIubWF0Y2goIkFSRUEiKXx8c3Ry
+Lm1hdGNoKCJBIikpe3ZhciBwPWVsLnBhcmVudE5vZGU7aWYocCYmKHAudGFnTmFt
+ZT09Ik1BUCIpJiYocC5ibWlfaW1nT2JqIT1udWxsKSl7ZWwuYm1pX21hcEltYWdl
+PXAuYm1pX2ltZ09iajtwLmJtaV9pbWdPYmouYm1pX2FyZWFFbD1lbDtyZXR1cm4g
+MTt9fQpyZXR1cm4gMDt9CmZ1bmN0aW9uIGJtaV9yZXNldFRpdGxlKGVsKXtpZigh
+ZWwpCnJldHVybjtpZihlbC5ibWlfdG91Y2hlZCE9MSkKcmV0dXJuO2VsLnRpdGxl
+PSIiO2lmKGVsLmJtaV9vbGRUaXRsZSl7ZWwudGl0bGU9ZWwuYm1pX29sZFRpdGxl
+O2lmKGVsLmJtaV9vbGRBbHQpe2VsLmFsdD1lbC5ibWlfb2xkQWx0O319CmVsc2Ug
+aWYoZWwuYm1pX29sZEFsdCl7ZWwuYWx0PWVsLmJtaV9vbGRBbHQ7aWYoYm1pX2ll
+KQplbC50aXRsZT1lbC5hbHQ7fQppZihlbC5ibWlfZ290T3JpZ2luYWwpe2lmKGVs
+LmJtaV9vcmlnX21vdXNlb3V0KXtlbC5vbm1vdXNlb3V0PWVsLmJtaV9vcmlnX21v
+dXNlb3V0O319fQpmdW5jdGlvbiBibWlfY2hlY2tFbGVtZW50KGVsKXt2YXIgcHdp
+bmRvdz1udWxsO2lmKGVsLmJtaV9nb3RPcmlnaW5hbCkKcmV0dXJuO2lmKGVsLmJt
+aV9tYXBJbWFnZSl7aWYoZWwuYm1pX21hcEltYWdlLmJtaV9nb3RPcmlnaW5hbD09
+MSl7ZWwuYm1pX2dvdE9yaWdpbmFsPTE7aWYoZWwuYm1pX3RvdWNoZWQpCmJtaV9y
+ZXNldFRpdGxlKGVsKTtyZXR1cm47fX0KaWYoZWwuYm1pX3RvdWNoZWQhPTEpe2Jt
+aV9zZXRFbGVtZW50VGl0bGUoZWwpO2lmKGVsLm9ubW91c2VvdXQpe2VsLmJtaV9v
+cmlnX21vdXNlb3V0PWVsLm9ubW91c2VvdXQ7ZWwub25tb3VzZW91dD1ibWlfc2Fm
+ZU1vdXNlT3V0RXZlbnRzO30KZWxzZXtlbC5vbm1vdXNlb3V0PWJtaV9zYWZlTW91
+c2VPdXRFdmVudHM7fX0KZWxzZXtlbC50aXRsZT1lbC5ibWlfdGl0bGU7ZWwuYWx0
+PWVsLmJtaV9hbHQ7fQppZihlbC5ibWlfbWFwSW1hZ2UpCmJtaV9pbWFnZU9ialNl
+bGVjdGVkPWVsLmJtaV9tYXBJbWFnZTtlbHNlCmJtaV9pbWFnZU9ialNlbGVjdGVk
+PWVsO2lmKGJtaV9pZXx8Ym1pX29wZXJhKQpwd2luZG93PWRvY3VtZW50LnBhcmVu
+dFdpbmRvdztlbHNlIGlmKGJtaV9uc29ubHl8fGlzX2dlY2tvKQpwd2luZG93PWRv
+Y3VtZW50LmRlZmF1bHRWaWV3O2Vsc2UKcHdpbmRvdz1udWxsO2lmKHB3aW5kb3cm
+Jihwd2luZG93IT1wd2luZG93LnBhcmVudCkpe3B3aW5kb3cuZm9jdXMoKTtlbC5i
+bWlfY2hhbmdlZEZvY3VzPTE7fQpyZXR1cm47fQpmdW5jdGlvbiBibWlfc2V0RWxl
+bWVudFRpdGxlKGVsKXt2YXIgdG1wQWx0PSIiO2lmKGVsLmFsdCl7dG1wQWx0PWVs
+LmFsdDtlbC5ibWlfb2xkQWx0PWVsLmFsdDtlbC5ibWlfYWx0PSIiO2VsLmFsdD0i
+Ijt9CmlmKGVsLnRpdGxlKXtlbC5ibWlfb2xkVGl0bGU9ZWwudGl0bGU7ZWwudGl0
+bGU9ZWwudGl0bGUrIiI7fQplbHNle2VsLnRpdGxlPXRtcEFsdCsiIjt9CmlmKGJt
+aV9maXJlZm94KXtlbC50aXRsZT1lbC50aXRsZStibWlfdG9vbFRpcFNlcGVyYXRv
+citibWlfZmZ4X29wX3Rvb2xUaXA7ZWwuYm1pX3RvdWNoZWQ9MTtlbC5ibWlfdGl0
+bGU9ZWwudGl0bGU7fQplbHNlIGlmKGJtaV9vcGVyYXx8Ym1pX3NhZmFyaSl7ZWwu
+dGl0bGU9Ym1pX2ZmeF9vcF90b29sVGlwO2VsLmJtaV90b3VjaGVkPTE7ZWwuYm1p
+X3RpdGxlPWVsLnRpdGxlO30KZWxzZXtlbC50aXRsZT1lbC50aXRsZStibWlfdG9v
+bFRpcFNlcGVyYXRvcitibWlfdG9vbFRpcDtlbC5ibWlfdG91Y2hlZD0xO2VsLmJt
+aV90aXRsZT1lbC50aXRsZTt9CnJldHVybjt9CmZ1bmN0aW9uIGJtaV9jaGVja0lu
+cHV0VHlwZSh0eXBlKXtpZighdHlwZSkKcmV0dXJuIDA7aWYodHlwZS5tYXRjaCgi
+aW1hZ2UiKXx8dHlwZS5tYXRjaCgiSW1hZ2UiKSl7cmV0dXJuIDE7fQpyZXR1cm4g
+MDt9CmZ1bmN0aW9uIGJtaV9jaGVja01JTUVUeXBlKHR5cGUpe3ZhciB0eXBlU3Ry
+PW5ldyBTdHJpbmcodHlwZSk7dmFyIGZpbmQ9L2ltYWdlXC8vZ2k7aWYodHlwZVN0
+ci5zZWFyY2goZmluZCkhPS0xKQpyZXR1cm4gMTtyZXR1cm4gMDt9CmZ1bmN0aW9u
+IGJtaV9tb3VzZU92ZXIoZSl7Ym1pX2ltYWdlT2JqU2VsZWN0ZWQ9bnVsbDt2YXIg
+b2JqO2lmKGRvY3VtZW50LmJtaV9vbm1vdXNlb3Zlcl9vcmlnaW5hbCE9bnVsbCkK
+ZG9jdW1lbnQuYm1pX29ubW91c2VvdmVyX29yaWdpbmFsKGUpO2lmKGJtaV9pZXx8
+Ym1pX29wZXJhKXt2YXIgZT13aW5kb3cuZXZlbnQ7b2JqPWUuc3JjRWxlbWVudDt9
+CmVsc2V7b2JqPWUudGFyZ2V0O30KaWYob2JqLmJtaV9nb3RPcmlnaW5hbCkKcmV0
+dXJuO2lmKGJtaV9JbWFnZUVsZW1lbnQob2JqKSl7Ym1pX2NoZWNrRWxlbWVudChv
+YmopO30KcmV0dXJuO30KZnVuY3Rpb24gYm1pX3NhZmVNb3VzZU91dEV2ZW50cyhl
+KXt2YXIgb2JqO2lmKGJtaV9pZXx8Ym1pX29wZXJhKXtlPXdpbmRvdy5ldmVudDtv
+Ymo9ZS5zcmNFbGVtZW50O30KZWxzZXtvYmo9ZS50YXJnZXQ7fQpibWlfcmVzZXRU
+aXRsZShvYmopO2lmKG9iai5ibWlfY2hhbmdlZEZvY3VzPT0xKXt2YXIgcHdpbmRv
+dz1udWxsO2lmKGJtaV9pZXx8Ym1pX29wZXJhKQpwd2luZG93PWRvY3VtZW50LnBh
+cmVudFdpbmRvdztlbHNlIGlmKGJtaV9uc29ubHl8fGlzX2dlY2tvKQpwd2luZG93
+PWRvY3VtZW50LmRlZmF1bHRWaWV3O2Vsc2UKcHdpbmRvdz1udWxsO2lmKHB3aW5k
+b3cpe3B3aW5kb3cudG9wLmZvY3VzKCk7b2JqLmJtaV9jaGFuZ2VkRm9jdXM9MDt9
+fQppZihvYmouYm1pX29yaWdfbW91c2VvdXQpe29iai5ibWlfb3JpZ19tb3VzZW91
+dCgpO319CmZ1bmN0aW9uIGJtaV91cGRhdGVJbWFnZVNyYyhzcmMpCnt2YXIgZm91
+bmQ9MDt2YXIgZmluZD0vXD8vZzt2YXIgZWRpdFVybDt2YXIgZWRpdEluZGV4O3Zh
+ciBlZGl0UHJvdG87dmFyIGJtaVNpZ25JbmRleDt2YXIgYm1pU2lnbjtzcmNTdHJp
+bmc9bmV3IFN0cmluZyhzcmMpO2lmKHNyY1N0cmluZy5zZWFyY2goZmluZCkhPS0x
+KQp7Zm91bmQ9MTtzcmNTdHJpbmc9c3JjU3RyaW5nLmNvbmNhdCgiJiIrYm1pX2Nv
+bmNhdFN0cisiPTEiKTt9CmVsc2UKe3ZhciBpPXNyY1N0cmluZy5sYXN0SW5kZXhP
+ZigiLyIpO3ZhciBuZXdTdHI9c3JjU3RyaW5nLnN1YnN0cmluZyhpKzEpO3NyY1N0
+cmluZz1zcmNTdHJpbmcuY29uY2F0KCIvIitibWlfY29uY2F0U3RyKyIvIituZXdT
+dHIpO30KaWYoYm1pX2h0bWxFZGl0KXtlZGl0SW5kZXg9c3JjU3RyaW5nLmluZGV4
+T2YoIjovLyIpO2lmKGVkaXRJbmRleCE9LTEpe2VkaXRQcm90bz1zcmNTdHJpbmcu
+c3Vic3RyaW5nKDAsZWRpdEluZGV4KzMpO2VkaXRVcmw9c3JjU3RyaW5nLnN1YnN0
+cmluZyhlZGl0SW5kZXgrMyk7ZWRpdEluZGV4PWVkaXRVcmwuaW5kZXhPZigiLyIp
+O2lmKGVkaXRJbmRleCE9LTEpe2VkaXRVcmw9ZWRpdFVybC5zdWJzdHJpbmcoZWRp
+dEluZGV4KzEpO2JtaVNpZ25JbmRleD1lZGl0VXJsLmluZGV4T2YoIi8iKTtpZihi
+bWlTaWduSW5kZXghPS0xKXtibWlTaWduID1lZGl0VXJsLnN1YnN0cmluZygwLGJt
+aVNpZ25JbmRleCk7aWYoYm1pU2lnbj09ImJtaSIpe2VkaXRVcmw9ZWRpdFVybC5z
+dWJzdHJpbmcoYm1pU2lnbkluZGV4KzEpO3NyY1N0cmluZz1lZGl0UHJvdG8rZWRp
+dFVybDt9fX19fQpyZXR1cm4oc3JjU3RyaW5nKTt9CmZ1bmN0aW9uIGJtaV9yZXBs
+YWNlSW1hZ2VzKGFycmF5KXtpZighYXJyYXkpCnJldHVybjtmb3IodmFyIGk9MDtp
+PGFycmF5Lmxlbmd0aDtpKyspe2lmKGFycmF5W2ldLmJtaV9nb3RPcmlnaW5hbCl7
+Y29udGludWU7fQppZihhcnJheVtpXS5ibWlfb2JqVGFnKXthcnJheVtpXS5kYXRh
+PWJtaV91cGRhdGVJbWFnZVNyYyhhcnJheVtpXS5kYXRhKTt9CmVsc2V7YXJyYXlb
+aV0uc3JjPWJtaV91cGRhdGVJbWFnZVNyYyhhcnJheVtpXS5zcmMpO30KYXJyYXlb
+aV0uYm1pX2dvdE9yaWdpbmFsPTE7aWYoYXJyYXlbaV0uYm1pX3RvdWNoZWQpe2Jt
+aV9yZXNldFRpdGxlKGFycmF5W2ldKTt9fQpyZXR1cm47fQpmdW5jdGlvbiBibWlf
+cmVwbGFjZUlucHV0SW1hZ2VzKGFycmF5KXtpZighYXJyYXkpCnJldHVybjtmb3Io
+dmFyIGk9MDtpPGFycmF5Lmxlbmd0aDtpKyspe2lmKGFycmF5W2ldLmJtaV9nb3RP
+cmlnaW5hbCl7Y29udGludWU7fQppZihhcnJheVtpXS50eXBlJiZibWlfY2hlY2tJ
+bnB1dFR5cGUoYXJyYXlbaV0udHlwZSkpe2FycmF5W2ldLnNyYz1ibWlfdXBkYXRl
+SW1hZ2VTcmMoYXJyYXlbaV0uc3JjKTthcnJheVtpXS5ibWlfZ290T3JpZ2luYWw9
+MTtpZihhcnJheVtpXS5ibWlfdG91Y2hlZCl7Ym1pX3Jlc2V0VGl0bGUoYXJyYXlb
+aV0pO319fQpyZXR1cm47fQpmdW5jdGlvbiBibWlfTlNsYXllcnMoKXtpZihkb2N1
+bWVudCE9bnVsbCl7aWYoIWRvY3VtZW50LmxheWVycyl7Ym1pX3JlcGxhY2VJbWFn
+ZXMoZG9jdW1lbnQudGFncy5JTUcpO2JtaV9yZXBsYWNlSW5wdXRJbWFnZXMoZG9j
+dW1lbnQudGFncy5JTlBVVCk7cmV0dXJuO30KZm9yKHZhciBpPTA7aTxkb2N1bWVu
+dC5sYXllcnMubGVuZ3RoO2krKyl7Ym1pX05TbGF5ZXJzKGRvY3VtZW50LmxheWVy
+c1tpXS5kb2N1bWVudCk7Ym1pX3JlcGxhY2VJbWFnZXMoZG9jdW1lbnQubGF5ZXJz
+W2ldLmRvY3VtZW50LnRhZ3MuSU1HKTtibWlfcmVwbGFjZUlucHV0SW1hZ2VzKGRv
+Y3VtZW50LmxheWVyc1tpXS5kb2N1bWVudC50YWdzLklOUFVUKTt9fQpyZXR1cm47
+fQpmdW5jdGlvbiBibWlfZG93bmxvYWRBbGxIYW5kbGVyKCl7aWYoKHRydWU9PWJt
+aV9jaGVja0FjY2VzcyhwYXJlbnQpKSYmKHBhcmVudC5sb2NhdGlvbi5ocmVmIT1z
+ZWxmLmxvY2F0aW9uLmhyZWYpKXt2YXIgbmV3cGFyZW50PXBhcmVudDtkb3tuZXdw
+YXJlbnQ9bmV3cGFyZW50LnBhcmVudDtpZigoZmFsc2U9PWJtaV9jaGVja0FjY2Vz
+cyhuZXdwYXJlbnQucGFyZW50KSl8fChuZXdwYXJlbnQucGFyZW50LmxvY2F0aW9u
+LmhyZWY9PW5ld3BhcmVudC5sb2NhdGlvbi5ocmVmKSl7YnJlYWs7fX13aGlsZShu
+ZXdwYXJlbnQpOy8vCnZhciBudW1GcmFtZXM9bmV3cGFyZW50LmZyYW1lcy5sZW5n
+dGg7dmFyIGluZGV4PTA7dmFyIGZyYW1lO2Zvcig7aW5kZXg8bmV3cGFyZW50LmZy
+YW1lcy5sZW5ndGg7aW5kZXgrKyl7ZnJhbWU9bmV3cGFyZW50LmZyYW1lc1tpbmRl
+eF07aWYoZmFsc2U9PWJtaV9jaGVja0FjY2VzcyhmcmFtZS53aW5kb3cpKXtjb250
+aW51ZTt9CmlmKGZyYW1lLndpbmRvdy5ibWlfcmVEb3dubG9hZEFsbEltYWdlcyl7
+ZnJhbWUud2luZG93LmJtaV9yZURvd25sb2FkQWxsSW1hZ2VzKCk7fX0KcmV0dXJu
+O30KYm1pX3JlRG93bmxvYWRBbGxJbWFnZXMoKTt9CmZ1bmN0aW9uIGJtaV9yZURv
+d25sb2FkQWxsSW1hZ2VzKCl7dmFyIGltZ0FycmF5O3ZhciBpbnB1dEFycmF5O3Zh
+ciBiYWNrZ3JvdW5kQXJyYXk7dmFyIG51bUZyYW1lcz13aW5kb3cuZnJhbWVzLmxl
+bmd0aDt2YXIgaW5kZXg9MDt2YXIgZnJhbWU7Zm9yKDtpbmRleDxudW1GcmFtZXM7
+aW5kZXgrKyl7ZnJhbWU9d2luZG93LmZyYW1lc1tpbmRleF07aWYoZmFsc2U9PWJt
+aV9jaGVja0FjY2VzcyhmcmFtZS53aW5kb3cpKXtjb250aW51ZTt9CmlmKGZyYW1l
+LndpbmRvdy5ibWlfcmVEb3dubG9hZEFsbEltYWdlcyl7ZnJhbWUud2luZG93LmJt
+aV9yZURvd25sb2FkQWxsSW1hZ2VzKCk7fX0KaWYoKGJtaV9pZTV1cHx8Ym1pX25z
+NnVwfHxibWlfb3BlcmE1dXB8fGJtaV9maXJlZm94KSl7aW1nQXJyYXk9ZG9jdW1l
+bnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoIklNRyIpO2lucHV0QXJyYXk9ZG9jdW1l
+bnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoIklOUFVUIik7Ym1pX3JlcGxhY2VJbWFn
+ZXMoaW1nQXJyYXkpO2JtaV9yZXBsYWNlSW5wdXRJbWFnZXMoaW5wdXRBcnJheSk7
+fQplbHNlIGlmKGJtaV9ucyYmKGJtaV9uczR8fGJtaV9uczMpKXt2YXIgaW1nQXJy
+YXk7dmFyIGRvY0xheWVycztkb2NMYXllcnM9ZG9jdW1lbnQubGF5ZXJzO2lmKGRv
+Y0xheWVycyYmZG9jTGF5ZXJzLmxlbmd0aCl7Zm9yKHZhciBsYXlpPTA7bGF5aTww
+O2xheWkrKyl7aW1nQXJyYXk9ZG9jTGF5ZXJzW2xheWldLmRvY3VtZW50LmltYWdl
+cztibWlfcmVwbGFjZUltYWdlcyhpbWdBcnJheSk7fX0KZWxzZXtpbWdBcnJheT1k
+b2N1bWVudC5pbWFnZXM7Ym1pX3JlcGxhY2VJbWFnZXMoaW1nQXJyYXkpO319CmVs
+c2V7aW1nQXJyYXk9ZG9jdW1lbnQuaW1hZ2VzO2JtaV9yZXBsYWNlSW1hZ2VzKGlt
+Z0FycmF5KTt9CnJldHVybjt9CmZ1bmN0aW9uIGJtaV9yZURvd25sb2FkU2VsZWN0
+ZWRJbWFnZShpbWcpe2lmKGltZy5ibWlfZ290T3JpZ2luYWwpe3JldHVybjt9Cmlm
+KGltZyYmIWltZy5ibWlfZ290T3JpZ2luYWwpe2lmKGltZy5ibWlfb2JqVGFnKXtp
+bWcuZGF0YT1ibWlfdXBkYXRlSW1hZ2VTcmMoaW1nLmRhdGEpO30KZWxzZXtpbWcu
+c3JjPWJtaV91cGRhdGVJbWFnZVNyYyhpbWcuc3JjKTt9CmltZy5ibWlfZ290T3Jp
+Z2luYWw9MTtpZihpbWcuYm1pX3RvdWNoZWQpe2JtaV9yZXNldFRpdGxlKGltZyk7
+fQppZihpbWcuYm1pX2FyZWFFbCYmKGltZy5ibWlfYXJlYUVsLmJtaV90b3VjaGVk
+KSl7Ym1pX3Jlc2V0VGl0bGUoaW1nLmJtaV9hcmVhRWwpO2ltZy5ibWlfYXJlYUVs
+LmJtaV9nb3RPcmlnaW5hbD0xO319CnJldHVybjt9CmZ1bmN0aW9uIGJtaV9rZXlw
+cmVzcyhlKQp7dmFyIHJlbG9hZFNpbmdsZT0wO3ZhciByZWxvYWRBbGw9MDt2YXIg
+b2JqO2lmKGJtaV9ucyl7aWYoYm1pX25zNnVwKXtpZigoU3RyaW5nLmZyb21DaGFy
+Q29kZShlLmNoYXJDb2RlKT09J3InKXx8KFN0cmluZy5mcm9tQ2hhckNvZGUoZS5j
+aGFyQ29kZSk9PSdSJykpCnJlbG9hZFNpbmdsZT0xO2Vsc2V7aWYoKFN0cmluZy5m
+cm9tQ2hhckNvZGUoZS5jaGFyQ29kZSk9PSdBJykpCnJlbG9hZEFsbD0xO30Kb2Jq
+PWUudGFyZ2V0O3ZhciBzdHI9bmV3IFN0cmluZyhvYmoudGFnTmFtZSk7aWYoc3Ry
+Lm1hdGNoKCJJTlBVVCIpJiYoYm1pX2NoZWNrSW5wdXRUeXBlKG9iai50eXBlKSE9
+MSkpe2lmKGJtaV9pbWFnZU9ialNlbGVjdGVkPT1vYmopCnJlbG9hZEFsbD1yZWxv
+YWRTaW5nbGU9MDt9fQplbHNle2lmKChTdHJpbmcuZnJvbUNoYXJDb2RlKGUud2hp
+Y2gpPT0nUicpJiYoZS5tb2RpZmllcnM9PUV2ZW50LlNISUZUX01BU0spKQpyZWxv
+YWRTaW5nbGU9MTtlbHNle2lmKChTdHJpbmcuZnJvbUNoYXJDb2RlKGUud2hpY2gp
+PT0nQScpJiYoZS5tb2RpZmllcnM9PUV2ZW50LlNISUZUX01BU0spKQpyZWxvYWRB
+bGw9MTt9fX0KaWYoYm1pX2llfHxibWlfb3BlcmEpe2lmKChTdHJpbmcuZnJvbUNo
+YXJDb2RlKHdpbmRvdy5ldmVudC5rZXlDb2RlKT09J1InKSYmKHdpbmRvdy5ldmVu
+dC5zaGlmdEtleSkpCnJlbG9hZFNpbmdsZT0xO2Vsc2UgaWYoYm1pX29wZXJhKXtp
+ZigoU3RyaW5nLmZyb21DaGFyQ29kZSh3aW5kb3cuZXZlbnQua2V5Q29kZSk9PSdB
+JykmJih3aW5kb3cuZXZlbnQuc2hpZnRLZXkpKQpyZWxvYWRBbGw9MTt9CnZhciBl
+PXdpbmRvdy5ldmVudDtvYmo9ZS5zcmNFbGVtZW50O3ZhciBzdHI9bmV3IFN0cmlu
+ZyhvYmoudGFnTmFtZSk7aWYoc3RyLm1hdGNoKCJJTlBVVCIpJiYoYm1pX2NoZWNr
+SW5wdXRUeXBlKG9iai50eXBlKSE9MSkpe2lmKGJtaV9pbWFnZU9ialNlbGVjdGVk
+PT1vYmopCnJlbG9hZFNpbmdsZT1yZWxvYWRBbGw9MDt9fQppZihyZWxvYWRTaW5n
+bGU9PTEpe2lmKGJtaV9ucyl7aWYoYm1pX25zNHx8Ym1pX25zM3x8Ym1pX25zMil7
+cmV0dXJuO319CmlmKGJtaV9pbWFnZU9ialNlbGVjdGVkKQpibWlfcmVEb3dubG9h
+ZFNlbGVjdGVkSW1hZ2UoYm1pX2ltYWdlT2JqU2VsZWN0ZWQpO30KZWxzZXtpZihy
+ZWxvYWRBbGw9PTEpe2JtaV9kb3dubG9hZEFsbEhhbmRsZXIoKTt9fQppZigoZG9j
+dW1lbnQuYm1pX29ua2V5cHJlc3Nfb3JpZ2luYWwhPW51bGwpJiYoZG9jdW1lbnQu
+Ym1pX29ua2V5cHJlc3Nfb3JpZ2luYWwhPWJtaV9rZXlwcmVzcykpCntyZXR1cm4o
+ZG9jdW1lbnQuYm1pX29ua2V5cHJlc3Nfb3JpZ2luYWwoZSkpO30KcmV0dXJuO30K
+ZnVuY3Rpb24gYm1pX2xpbmtNYXBJbWFnZXMobWFwcyxvYmpzKXt2YXIgbGlua2Vk
+PTA7Zm9yKHZhciBpPTA7aTxvYmpzLmxlbmd0aDtpKyspe2lmKGxpbmtlZD49bWFw
+cy5sZW5ndGgpe3JldHVybiBsaW5rZWQ7fQppZihvYmpzW2ldLnVzZU1hcCl7dmFy
+IG5ld1N0cj1uZXcgU3RyaW5nKG9ianNbaV0udXNlTWFwKTt2YXIgbWFwTmFtZT1u
+ZXdTdHIuc3Vic3RyaW5nKG5ld1N0ci5sYXN0SW5kZXhPZigiIyIpKzEpO2lmKGJt
+aV9JbWFnZUVsZW1lbnQob2Jqc1tpXSkhPTEpCmNvbnRpbnVlO2Zvcih2YXIgaj0w
+O2o8bWFwcy5sZW5ndGg7aisrKXtpZihtYXBzW2pdLm5hbWU9PW1hcE5hbWUpe21h
+cHNbal0uYm1pX2ltZ09iaj1vYmpzW2ldO2xpbmtlZCsrO319fX0KcmV0dXJuIGxp
+bmtlZDt9CmZ1bmN0aW9uIGJtaV9sb2FkKCl7aWYoYm1pX29yaWdfb25Mb2FkKXti
+bWlfb3JpZ19vbkxvYWQoKTt9CmlmKGJtaV9uczJ8fGJtaV9uczN8fGJtaV9uczQp
+e3dpbmRvdy5kZWZhdWx0U3RhdHVzPWJtaV9uc190b29sdGlwO3JldHVybjt9Cmlm
+KGRvY3VtZW50Lm9ubW91c2VvdmVyKXtpZihkb2N1bWVudC5vbm1vdXNlb3ZlciE9
+Ym1pX21vdXNlT3Zlcil7ZG9jdW1lbnQuYm1pX29ubW91c2VvdmVyX29yaWdpbmFs
+PWRvY3VtZW50Lm9ubW91c2VvdmVyO319CmRvY3VtZW50Lm9ubW91c2VvdmVyPWJt
+aV9tb3VzZU92ZXI7aWYoZG9jdW1lbnQub25rZXlwcmVzcyl7aWYoZG9jdW1lbnQu
+b25rZXlwcmVzcyE9Ym1pX2tleXByZXNzKXtkb2N1bWVudC5ibWlfb25rZXlwcmVz
+c19vcmlnaW5hbD1kb2N1bWVudC5vbmtleXByZXNzO319CmVsc2V7ZG9jdW1lbnQu
+Ym1pX29ua2V5cHJlc3Nfb3JpZ2luYWw9bnVsbDt9CmRvY3VtZW50Lm9ua2V5cHJl
+c3M9Ym1pX2tleXByZXNzO3ZhciBtYXBzPWRvY3VtZW50LmdldEVsZW1lbnRzQnlU
+YWdOYW1lKCJNQVAiKTtpZigobWFwcz09bnVsbCl8fChtYXBzLmxlbmd0aD09MCkp
+e3JldHVybjt9CnZhciBvYmpzPW51bGw7aWYoYm1pX2llfHxibWlfb3BlcmEpe29i
+anM9ZG9jdW1lbnQuYWxsO2lmKG9ianMpe2JtaV9saW5rTWFwSW1hZ2VzKG1hcHMs
+b2Jqcyk7fX0KaWYoYm1pX25zfHxpc19nZWNrbyl7dmFyIG51bT0wO29ianM9ZG9j
+dW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoIklNRyIpO2lmKG9ianMpe251bT1u
+dW0rYm1pX2xpbmtNYXBJbWFnZXMobWFwcyxvYmpzKTt9CmlmKG51bT49bWFwcy5s
+ZW5ndGgpe3JldHVybjt9Cm9ianM9bnVsbDtvYmpzPWRvY3VtZW50LmdldEVsZW1l
+bnRzQnlUYWdOYW1lKCJJTlBVVCIpO2lmKG9ianMpe251bSs9Ym1pX2xpbmtNYXBJ
+bWFnZXMobWFwcyxvYmpzKTt9CmlmKG51bT49bWFwcy5sZW5ndGgpe3JldHVybjt9
+Cm9ianM9bnVsbDtvYmpzPWRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJP
+QkpFQ1QiKTtpZihvYmpzKXtudW0rPWJtaV9saW5rTWFwSW1hZ2VzKG1hcHMsb2Jq
+cyk7fX0KcmV0dXJuO30KdmFyIGJtaV9vcmlnX29uTG9hZDtmdW5jdGlvbiBibWlf
+U2FmZUFkZE9ubG9hZChmLHVybFN0cixodG1sRWRpdCkKe2lmKHVybFN0cil7Ym1p
+X2NvbmNhdFN0cj11cmxTdHI7fQppZihodG1sRWRpdCl7Ym1pX2h0bWxFZGl0PWh0
+bWxFZGl0O30KaWYoYm1pX2llNCl7d2luZG93Lm9ubG9hZD1mO30KZWxzZSBpZih3
+aW5kb3cub25sb2FkKXtpZih3aW5kb3cub25sb2FkIT1mKXtibWlfb3JpZ19vbkxv
+YWQ9d2luZG93Lm9ubG9hZDt3aW5kb3cub25sb2FkPWY7fX0KZWxzZXt3aW5kb3cu
+b25sb2FkPWY7fX0K
+
+------------TybgPZacgMmyuwSP3aV0dr--

@@ -1,0 +1,22 @@
+#include<stdio.h>
+ int main()
+ {
+	 int c,s=0,h,z=1,a[1010],v,i;
+	 float f,g,n;
+	 char ch='%';
+	scanf("%d",&c);
+	while(z<=c)
+    {   g=0;s=0;
+        scanf("%f",&n);
+        for(i=0;i<n;i++)
+        {scanf("%d",&a[i]);
+        s=s+a[i];}
+        v=s/n;
+        for(i=0;i<n;i++)
+        {if(a[i]>v)
+        g++;}
+        f=(100*g)/n;
+        printf("%.3f%c\n",f,ch);
+     z++;
+    }return 0;
+}

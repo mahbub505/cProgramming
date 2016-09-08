@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int n,k,a;	
+	while(scanf("%d%d",&n,&k)==2)
+	{	if(k>1)
+	{ a=n;
+	do{	
+        a=a+n/k;
+   	    n=n/k+n%k;
+		}while(k<=n);
+        printf("%d\n",a);
+	}   }
+
+}

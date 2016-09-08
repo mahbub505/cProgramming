@@ -1,0 +1,49 @@
+  	  #include<stdio.h>
+	  long long cyl(long long n)
+	   {
+
+       long long a=1;
+          while(n>=1)
+		  {
+		      ++a;
+			if(n%2==0)
+			   n=n/2;
+			else
+			   n=3*n+1;
+			if(n==1)
+            break;
+
+		  }return a;
+        }
+
+  int main()
+  {
+		long long n=0,i,j,k=0,l,r=0,t=1,z,s,b;
+	  while (scanf("%lld %lld",&i,&j) == 2)
+        {      if(i==0&&j==0)
+               break;
+               else if(i>0&&j>0)
+             {
+
+              if(i>j)
+			  {k=i;
+			  n=j;s=n;b=k;}
+			  else
+			  {k=j;
+			  n=i;s=n;b=k;}
+
+		      for(l=n;l<=k;++l)
+		      {
+			   r=cyl(l);
+               if(r>t)
+			   {t=r;
+			   z=l;}
+              }
+
+		     printf("Between %lld and %lld, %lld generates the longest sequence of %lld values.\n",s,b,z,t-1);
+		     n=0;k=0;r=0,t=0;
+
+		}
+		}
+		return 0;
+  }

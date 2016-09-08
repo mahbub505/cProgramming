@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double a,t,x,b,c,u,s,v,n,i,j;
+    int q,l=0;
+    while(scanf("%d",&q)==1)
+       {
+        if(q==0)
+          break;
+        scanf("%lf%lf%lf",&x,&b,&c);
+      if(q==1)
+        {u=x;v=b;t=c;l++;
+          a=(v-u)/t;
+          s=((v*v)-(u*u))/(2*a);
+          printf("Case %d: %0.3lf %0.3lf\n",l,s,a);
+        }
+       else if(q==2)
+        {u=x;v=b;a=c;l++;
+          t=(v-u)/a;
+          s=((v*v)-(u*u))/(2*a);
+          printf("Case %d: %0.3lf %0.3lf\n",l,s,t);
+        }
+        else if(q==3)
+        {u=x;a=b;s=c;l++;
+
+          i=(u*u)+(2*a*s);
+          i=sqrt(i);
+          t=(i-u)/a;
+          printf("Case %d: %0.3lf %0.3lf\n",l,i,t);
+        }
+        else if(q==4)
+        {u=x;a=b;s=c;l++;
+
+          i=(u*u)-(2*a*s);
+          i=sqrt(i);
+          t=(u-i)/a;
+          printf("Case %d: %0.3lf %0.3lf\n",l,i,t);
+        }
+    }return 0;
+}

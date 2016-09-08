@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+
+	int c=0,i,j,l,x,k,sam=0,a,b;
+	char p[500],w[500];
+	while(scanf("%s%s",p,w)==2)
+	 {c=0;sam=0;
+
+	a=strlen(p);
+	b=strlen(w);
+	if(a==1&&b==1&&(p[0]-'0')==0&&(w[0]-'0')==0)
+	 break;
+	x=(a>b)?a:b;
+	  for(i=a-1,j=b-1;x>=0;x--,i--,j--)
+	  {   if(i<0)
+			 p[i]='0';
+			 if(j<0)
+			  w[j]='0';
+
+			if(((p[i]-'0')+(w[j]-'0')+c)>9)
+			{
+				 c=1;
+				 sam++;
+			}
+			else
+			c=0;
+	  }
+	  if(sam == 0)
+		printf("No carry operation.\n");
+	  else if(sam == 1)
+		printf("%d carry operation.\n",sam);
+	 else
+	  printf("%d carry operations.\n",sam);
+	}return 0;
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int n,k,a,m,i,j,q=0;
+	scanf("%d",&m);
+	while(q<m)
+	{
+	scanf("%d%d%d",&n,&i,&k);
+     n=n+i;
+    if(k>1)
+	{
+	    a=0;
+	do{
+        a=a+n/k;
+   	    n=n/k+n%k;
+		}while(k<=n);
+        printf("%d\n",a);
+	}  q++; }
+
+}

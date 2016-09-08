@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    long c=0;
+	 while(scanf("%ld",&c)==1)
+	 {  if(c==0)
+	     printf("Underflow!\n");
+	  else if(c<0&&c%2==-1)
+	     printf("Overflow!\n");
+	   else if(c<0&&c%2==0)
+	     printf("Underflow!\n");
+	   else if(c<8)
+	     printf("Underflow!\n");
+	    else if(c>13)
+	    printf("Overflow!\n");
+        else if(c==8)
+         printf("40320\n");
+        else if(c==9)
+         printf("362880\n");
+        else if(c==10)
+         printf("3628800\n");
+        else if(c==11)
+         printf("39916800\n");
+        else if(c==12)
+         printf("479001600\n");
+        else if(c==13)
+         printf("6227020800\n");
+
+    }return 0;
+}

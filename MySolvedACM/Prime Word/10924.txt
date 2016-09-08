@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+int main()
+{
+
+	 char W[100];
+	 int q,i,p[100],sum=0,a,b,c;
+	 while(gets(W))
+	  { q=strlen(W);sum=0;
+	  for(i=0;i<q;i++)
+	  {
+	      if(W[i]>90)
+	      p[i]=W[i]-96;
+	      else
+	      p[i]=W[i]-38;
+	      sum=sum+p[i];
+	  }
+	  a=sum;  b=sqrt(a);
+	  if(a==2)
+     printf("It is a prime word.\n");
+
+	else if(a%2==0)
+	{printf("It is not a prime word.\n");}
+	else
+	{for(c=3;c<=b;c+=2)
+	{  if(a%c==0&&c!=1)
+	  {printf("It is not a prime word.\n");
+		break;}
+	}
+	  if(c==b+2||c==b+1)
+		printf("It is a prime word.\n");}
+
+	}return 0;
+}

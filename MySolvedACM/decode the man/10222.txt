@@ -1,0 +1,84 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	 char T[500];
+	 int i=0,l;
+
+	 while(gets(T))
+	 {       l=strlen(T);
+		  for(i=0;i<l;i++)
+        {
+                 if(T[i]=='a'||T[i]=='A')
+		  T[i]='[';
+		  else if(T[i]=='b'||T[i]=='B')
+		  T[i]='c';
+		  else if(T[i]=='c'||T[i]=='C')
+		  T[i]='z';
+		  else if(T[i]=='d'||T[i]=='D')
+		  T[i]='a';
+		  else if(T[i]=='e'||T[i]=='E')
+		  T[i]='q';
+		  else if(T[i]=='f'||T[i]=='F')
+		  T[i]='s';
+		  else if(T[i]=='g'||T[i]=='G')
+		  T[i]='d';
+		  else if(T[i]=='h'||T[i]=='H')
+		  T[i]='f';
+		  else if(T[i]=='i'||T[i]=='I')
+		  T[i]='y';
+		  else if(T[i]=='j'||T[i]=='J')
+		  T[i]='g';
+		  else if(T[i]=='k'||T[i]=='K')
+		  T[i]='h';
+		  else if(T[i]=='l'||T[i]=='L')
+		  T[i]='j';
+		  else if(T[i]=='m'||T[i]=='M')
+		  T[i]='b';
+		  else if(T[i]=='n'||T[i]=='N')
+		  T[i]='v';
+		  else if(T[i]=='o'||T[i]=='O')
+		  T[i]='u';
+		  else if(T[i]=='p'||T[i]=='P')
+		  T[i]='i';
+		  else if(T[i]=='r'||T[i]=='R')
+		  T[i]='w';
+		  else if(T[i]=='s'||T[i]=='S')
+		  T[i]=']';
+		  else if(T[i]=='t'||T[i]=='T')
+		  T[i]='e';
+		  else if(T[i]=='u'||T[i]=='U')
+		  T[i]='t';
+		  else if(T[i]=='v'||T[i]=='V')
+		  T[i]='x';
+		  else if(T[i]=='x'||T[i]=='X')
+		  T[i]=39;
+		  else if(T[i]=='y'||T[i]=='Y')
+		  T[i]='r';
+		  else if(T[i]=='z'||T[i]=='Z')
+		  T[i]=';';
+		  else if(T[i]==',')
+		  T[i]='n';
+		  else if(T[i]==93)
+		  T[i]='p';
+		  else if(T[i]==91)
+		  T[i]='o';
+		  else if(T[i]=='\\')
+		  T[i]=';';
+		  else if(T[i]==' ')
+		  T[i]=' ';
+		  else if(T[i]=='.')
+		  T[i]='m';
+		  else if(T[i]=='/')
+		  T[i]=',';
+		  else if(T[i]==';')
+		  T[i]='k';
+		  else if(T[i]==39)
+		  T[i]='l';
+		 }
+		  for(i=0;i<l;i++)
+			printf("%c",T[i]);
+	 printf("\n");
+	 }return 0;
+
+}

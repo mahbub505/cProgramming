@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int n,a,q=1,b,c,d;
+    scanf("%d",&n);
+    while(q<=n)
+    {
+        scanf("%d%d%d",&b,&c,&a);
+        printf("Case %d: ",q);
+        if(b<a&&b>c||b>a&&b<c)
+        printf("%d",b);
+        else if(a>b&&a<c||a<b&&a>c)
+        printf("%d",a);
+        else if(c>b&&c<a||c<b&&c>a)
+        printf("%d",c);
+    q++;
+    }return 0;
+}

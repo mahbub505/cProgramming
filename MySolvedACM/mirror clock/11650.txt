@@ -1,0 +1,46 @@
+ #include<stdio.h>
+ int main()
+ {
+    int h,m,i,j,t,o=1,d;
+	char ch;
+	scanf("%d",&t);
+	while(o<=t&&t<1000)
+	{
+	scanf("%d",&h);
+	scanf(" %c",&ch);
+	scanf("%d",&m);
+	if(h<=12&&h>=1&&m>=0&&m<=59)
+	{
+    if(h>=1&&m==0)
+   {if(h==12)
+    i=h;
+    else
+    i=12-h;
+    if(i<10)
+    printf("0");
+    printf("%d:",i);
+    if(m<10)
+    printf("0");
+    printf("%d\n",m);
+    }
+    else
+      {if(h==11)
+        i=12;
+       else if(h==12)
+        i=11;
+        else
+          i=11-h;
+    if(i<10)
+    printf("0");
+    printf("%d:",i);
+    j=60-m;
+    if(j<10)
+    printf("0");
+    printf("%d\n",j);
+    }
+
+	o++;
+	i=0;j=0;
+	}
+ }return 0;
+ }

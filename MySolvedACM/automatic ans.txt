@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+
+	 long n,i=0,sum=0,m,p;
+	 scanf("%ld",&n);
+	  while(i<n)
+	 {   sum=0;
+		  scanf("%ld",&m);
+		 sum=(((((m*567)/9)+7492)*235)/47)-498;
+		 p=sum/10;
+		 p=p%10;if(p<0)
+		 p=p*(-1);
+		  printf("%ld\n",p);
+		  i++;
+	 }return 0;
+}

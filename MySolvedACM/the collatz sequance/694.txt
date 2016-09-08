@@ -1,0 +1,32 @@
+#include<stdio.h>
+int cyl(long long  n,long long m)
+	   {   long long a=1,c=1;
+          while(n>=1)
+		  {
+		    if(n==1)
+             break;
+		      ++a;
+			if(n%2==0)
+			   n=n/2;
+			else
+			   n=3*n+1;
+			if(n>m)
+			 break;
+			 c++;
+          }return c;
+        }
+
+  int main()
+  {
+		long long n=0,i,j,k=0,l,r=0,t=1,f=1;
+	  while (scanf("%lld %lld",&i,&j) == 2)
+        {     if(i<0&&j<0)
+               break;
+		      r=cyl(i,j);
+              t=r;
+		     printf("Case %lld: A = %lld, limit = %lld, number of terms = %lld\n",f++,i,j,t);
+		     n=0;k=0;r=0,t=0;
+
+		}
+		return 0;
+  }

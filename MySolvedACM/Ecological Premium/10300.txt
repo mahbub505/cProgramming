@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,n,i=0,m,sum=0,j;
+    scanf("%d",&n);
+    while(i<n)
+    {
+        scanf("%d",&m);
+        for(j=0;j<m;j++)
+        {
+            scanf("%d%d%d",&a,&b,&c);
+            sum=sum+a*c;
+        }printf("%d\n",sum);sum=0;
+        i++;
+    }return 0;
+}

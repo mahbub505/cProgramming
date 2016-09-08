@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+   	 long i,j,n,a[50010],b[50010],m,r,w,Bi,Sm;
+
+	 while(scanf("%ld",&n)==1)
+	 {
+	     for(i=0;i<n;i++)
+	     scanf("%ld",&a[i]);
+	     scanf("%ld",&m);
+       for(i=0;i<m;i++)
+	     scanf("%ld",&b[i]);
+ 	     for(i=0;i<m;i++)
+	     {  Sm=0;Bi=0;
+	        for(j=0;j<n;j++)
+	        {
+            if(a[j]<b[i])
+	          Sm=a[j];
+	         if(a[j]>b[i])
+	          {Bi=a[j];break;}
+	        }
+	        if(Sm<a[0])
+	        printf("X ");
+	        else
+	         printf("%ld ",Sm);
+            if(Bi<=a[n-1]&&Bi!=0)
+	          printf("%ld\n",Bi);
+            else
+	         printf("X\n");
+            }
+	 }return 0;
+}

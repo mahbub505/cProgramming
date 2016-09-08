@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+int main()
+{
+	 float h,m;
+	 float ans=0;
+	 char ch=':';
+	 while(scanf("%f%c%f",&h,&ch,&m)==3)
+	  { ans=0;
+		  if(h==0&&ch==':'&&m==0)
+		 break;
+		 ans=((h*5*6+(30*m)/60));
+		if(ans>=m*6)
+		ans=ans-6*m;
+		else
+		ans=6*m-ans;
+		if(ans>180)
+		 ans=360-ans;
+		 printf("%.3f\n",ans);
+
+	}return 0;
+}

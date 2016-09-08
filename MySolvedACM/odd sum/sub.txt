@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,e,f,d;
+while(scanf("%d",&f)==1)
+{
+for(e=1;e<=f;e++)
+{
+scanf("%d%d",&a,&b);
+d=0;
+if(a%2==1)
+{
+for(c=a;c<=b;c+=2)
+d=d+c;
+}
+else
+{
+for(c=a+1;c<=b;c+=2)
+d=d+c;
+}
+printf("Case %d: %d\n",e,d);
+
+}
+}
+return 0;
+}

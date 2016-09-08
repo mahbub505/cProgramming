@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double a,b,c,s=0,ar,ans=0;
+    while(scanf("%lf%lf%lf",&a,&b,&c)==3){
+      s=(a+b+c)/2;
+      if(a<=s&&b<=s&&c<=s&&a!=0&&b!=0&&c!=0)
+     {
+      ar=sqrt(s*(s-a)*(s-b)*(s-c));
+      ans=(2*ar)/(a+b+c);
+      }
+      printf("The radius of the round table is: %.3lf\n",ans);
+
+    }
+}

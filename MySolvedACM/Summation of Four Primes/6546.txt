@@ -1,0 +1,54 @@
+#include<stdio.h>
+#include<math.h>
+long prim(long a)
+{   long c=1;
+	 if(a==2||a==3||a==5||a==7||a==11)
+	  a=a;
+	 else if(a%2==0||a%3==0||a%5==0||a==1)
+		 a=0;
+	else if(a>11)
+	 {
+		  for(c=3;c<= sqrt(a);c+=2)
+		 {
+		  if(a%c==0||a%2==0)
+			  {
+				a=0;
+				break;
+			  }
+		 }
+
+	 }return a;
+}
+
+int main()
+{
+	 long a,k,j,i=1,m,w,e;
+	 while(scanf("%ld",&a)==1){
+	     if(a<8)
+	     printf("Impossible.\n");
+	     else
+		 { if(a%2==0)
+		 {e=2;
+		  w=2;
+		  a=a-4;}
+		  else
+		  {e=2;
+		  w=3;
+		  a=a-5;}
+		  printf("%ld %ld ",e,w);
+		  while(1)
+	  {    i++;
+			 k=prim(i);
+			 j=a-k;
+			 m=prim(j);
+			 if(a==k+m&&i>1)
+				{
+				  printf("%ld %ld\n",i,j);
+					break;
+				}
+
+	 }
+	  i=1;
+	  }
+	  }return 0;
+}

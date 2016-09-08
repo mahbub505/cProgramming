@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int a[10],i,j=0,I,X=0;
+    
+    for(i=0;i<8;i++)
+    scanf("%d",&a[i]);
+
+    for(i=0;i<8;i++)
+       {
+          I=3200;
+         for(j=i;j<8;j++)
+           if(a[j]<=I)
+           {I=a[j];X=j;}
+
+         a[X]=a[i];
+         a[i]=I;
+       }
+
+    for(i=0;i<8;i++)
+    printf("%d ",a[i]);
+}

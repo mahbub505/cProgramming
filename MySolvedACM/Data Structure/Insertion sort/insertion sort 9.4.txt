@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+   int a[12],k=2,i,ITEM,PTR;
+   for(i=1;i<=10;i++)
+   scanf("%d",&a[i]);
+   a[0]=-11;
+   for(k=2;k<=11;k++)
+   { ITEM = a[k];
+     PTR=k-1;
+     while(ITEM<a[PTR])
+     {
+     a[PTR+1]=a[PTR];
+     PTR=PTR-1;
+     }
+
+     a[PTR+1]=ITEM;
+   }
+   for(i=1;i<=10;i++)
+   printf("%d ",a[i]);
+}
+

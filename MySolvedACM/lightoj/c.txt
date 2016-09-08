@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+char ch[21][21];
+int count=1;
+int check(int i,int j){
+  if(ch[i][j+1]=='.')
+  {count++;ch[i][j+1]='v';check(i,j+1);}
+  if(ch[i-1][j]=='.')
+  {count++;ch[i-1][j]='v';check(i-1,j);}
+  if(ch[i][j-1]=='.')
+  {count++;ch[i][j-1]='v';check(i,j-1);}
+  if(ch[i+1][j]=='.')
+  {count++;ch[i+1][j]='v';check(i+1,j);}
+   return 0;
+}
+int main()
+{
+  char t,l;
+  int i,j,k,p,n,m,c=1,ro=NULL,col=NULL,ans;
+  scanf("%d",&p);
+
+  while(c<=p){
+  scanf("%d",&n);
+  scanf("%d",&m);
+
+  scanf("%c",&t);
+
+  memset(ch,'\0',sizeof(ch));
+
+  for(i=0;i<m;i++)
+	for(j=0;j<=n;j++)
+		 {
+				scanf("%c",&l);
+				if(l=='@')
+				{
+				    ch[i][j]=l;
+				    ro=i;col=j;
+                }
+
+				else if(l=='\n')
+				break;
+				else
+				ch[i][j]=l;
+
+
+		 }
+            check(ro,col);
+            printf("Case %d: %d\n",c,count);
+            count=1;
+c++;}return 0;
+}

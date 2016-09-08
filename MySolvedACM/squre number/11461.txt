@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+ int main()
+ {
+	 unsigned long int a,b,k=0,n,m;
+	while(1)
+	{
+	  scanf("%lu%lu",&a,&b);
+		if(a==0&&b==0)
+		 break;
+		if(a>0&&a<=b)
+	  {
+			 n=sqrt(a);
+			 m=sqrt(b);
+		if(a==n*n&&b==m*m||a==1)
+			k=m-n+1;
+		 else if(a==n*n)
+			k=m-n+1;
+		else
+		 k=m-n;
+	  }
+		  printf("%lu\n",k);
+		m=0;n=0;k=0;
+	 }return 0;
+
+ }

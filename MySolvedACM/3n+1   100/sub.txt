@@ -1,0 +1,43 @@
+  	  #include<stdio.h>
+	  long int cyl(long int n)
+	   {
+
+       long int a=1;
+          while(n>=1)
+		  { if(n==1)
+            break;
+		      ++a;
+			if(n%2==0)
+			   n=n/2;
+			else
+			   n=3*n+1;
+
+		  }return a;
+        }
+
+  int main()
+  {
+		long int n=0,i,j,k=0,l,r=0,t=1;
+	  while (scanf("%ld %ld",&i,&j) == 2)
+        {
+
+              if(i>j)
+			  {k=i;
+			  n=j;}
+			  else
+			  {k=j;
+			  n=i;}
+
+		      for(l=n;l<=k;++l)
+		      {
+			   r=cyl(l);
+               if(r>t)
+			   t=r;
+              }
+
+		     printf("%ld %ld %ld\n",i,j,t);
+		     n=0;k=0;r=0,t=0;
+
+		}
+		return 0;
+  }

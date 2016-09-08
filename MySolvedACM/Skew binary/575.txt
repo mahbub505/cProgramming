@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+int main()
+{
+	  char a[5000];
+      long a1,o=0,sum=0;
+   while(gets(a))
+	  {   sum=0,a1=0;
+	     a1=strlen(a);
+        if(a1==1&&a[0]=='0')
+		break;
+		a[a1]='\0';
+        for(o=0;1;o++)
+        {
+           sum=sum+((a[o]-'0')*(pow(2,a1--)-1));
+           if(a1==0)
+           break;
+        }
+        printf("%ld\n",sum);
+
+
+	}return 0;
+}
